@@ -460,3 +460,89 @@ header{
     transition: all ease-in-out .7s;
     box-shadow: 1px 3px 41px -10px var(--main_color-primary);
 }
+
+/* /EQUIPO/ */
+.container_equipo{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    background-color: #faf7fa;
+}
+
+.container_title_equipo{
+    text-align: center;
+}
+.container_title_equipo p{
+    color: var(--color_text-secundary);
+}
+.container_title_equipo h5{
+    color: var(--color_text-secundary);
+}
+
+.content_equipo{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 300px;
+}
+.first_member{
+    height: 50%;
+    width: 20%;
+    margin-top: 35px;
+    text-align: center;
+    padding: 5px;
+    flex-direction: colum;
+
+}
+.first_member_img{
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+}
+.second_member{
+    height: 50%;
+    width: 20%;
+    margin-top: 35px;
+    text-align: center;
+    padding: 5px;
+    flex-direction: colum;
+}
+.second_member_img{
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    
+}
+.third_member{
+    height: 50%;
+    width: 20%;
+    margin-top: 35px;
+    text-align: center;
+    padding: 5px;
+    flex-direction: colum;
+
+}
+.third_member_img{
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+}
+.social{
+    display: flex;
+    justify-content: space-evenly;
+}
+.social_icons{
+    border-radius: 30%;
+    height: 15%;
+    width: 15%;
+    margin-top: 5px;
+}
+.social_icons:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out .6s;
+    box-shadow: 1px 3px 41px -10px var(--main_color-primary);
+}
