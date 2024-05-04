@@ -403,7 +403,7 @@ header{
     margin: 2%;
     text-align: center;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
     height: 300px;
 }
@@ -414,7 +414,7 @@ header{
     background-image: url(../img/Servicios/img1.jpg);
     background-size:contain;
     margin-top: 35px;
-    color: #fff;
+    color: white;
     text-align: left;
     padding: 5px;
     border-radius: 5px;
@@ -431,7 +431,8 @@ header{
     background-image: url(../img/Servicios/img1.jpg);
     background-size:contain;
     margin-top: 35px;
-    color:#fff;
+    margin-left: 40px;
+    color:white;
     text-align: left;
     padding: 5px;
     border-radius: 5px;
@@ -449,6 +450,7 @@ header{
     background-image: url(../img/Servicios/img1.jpg);
     background-size:contain;
     margin-top: 35px;
+    margin-left: 40px;
     color: white;
     text-align: left;
     padding: 5px;
@@ -466,7 +468,7 @@ header{
     display: flex;
     flex-direction: column;
     padding: 5%;
-    background-color: #faf7fa;
+    background-color: white;
 }
 
 .container_title_equipo{
@@ -545,4 +547,66 @@ header{
     transform: scale(1.1);
     transition: all ease-in-out .6s;
     box-shadow: 1px 3px 41px -10px var(--main_color-primary);
+}
+
+/* contacta con nosotros */
+.contain_nosotros{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    background-color: #faf7fa;
+}
+
+.title_formulary{
+    text-align: center;
+}
+.title_formulary p{
+    color: var(--color_text-tertiary);
+}
+.title_formulary h2{
+    color: var(--color_text-secundary);
+}
+.contain_formulary{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+.formulary{
+    align-items: center;
+    flex-direction: column;
+}
+.controls{
+    width: 70%;
+    background: #d1d1d1;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 18px;
+    border: 1px solid #82427f;
+    font-family: var(--text_paragraph);
+    font-size: 11px;
+}
+.control{
+    width: 70%;
+    background: #d1d1d1;
+    padding: 25px;
+    border-radius: 4px;
+    margin-bottom: 18px;
+    border: 1px solid #82427f;
+    font-family: var(--text_paragraph);
+    font-size: 11px;
+    justify-content: flex-start;
+}
+.botons{
+    width: 29%;
+    background:var(--main_color-primary);
+    border-radius: 50px;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
 }
