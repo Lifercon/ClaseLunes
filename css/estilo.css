@@ -582,24 +582,26 @@ header{
 }
 .controls{
     width: 70%;
-    background: #d1d1d1;
+    background: #fff9f9;
     padding: 8px;
     border-radius: 4px;
     margin-bottom: 18px;
     border: 1px solid #82427f;
     font-family: var(--text_paragraph);
     font-size: 11px;
+    box-shadow: 4px 3px 10px 0px;
 }
 .control{
     width: 70%;
-    background: #d1d1d1;
+    background: #fff9f9;
     padding: 25px;
     border-radius: 4px;
     margin-bottom: 18px;
     border: 1px solid #82427f;
     font-family: var(--text_paragraph);
     font-size: 11px;
-    justify-content: flex-start;
+    box-shadow: 4px 3px 10px 0px;
+    margin-left: 4px;
 }
 .botons{
     width: 29%;
@@ -608,5 +610,8 @@ header{
     padding: 12px;
     color: white;
     margin: 16px 0;
-    font-size: 16px;
+    font-size: 15px;
+}
+.formulay_image {
+    border-radius: 20p%;
 }
