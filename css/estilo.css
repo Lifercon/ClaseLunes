@@ -567,21 +567,23 @@ header{
     color: var(--color_text-secundary);
 }
 .contain_formulary{
+    margin-top: 6%;
     display: flex;
     flex-direction: row;
-    margin: 2%;
     text-align: center;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 300px;
+    margin-left: 250px;
 }
 .formulary{
-    align-items: center;
     flex-direction: column;
+    display: flex;
+    width: 45%;
 }
 .controls{
-    width: 70%;
+    width: 80%;
     background: #fff9f9;
     padding: 8px;
     border-radius: 4px;
@@ -592,7 +594,7 @@ header{
     box-shadow: 4px 3px 10px 0px;
 }
 .control{
-    width: 70%;
+    width: 80%;
     background: #fff9f9;
     padding: 25px;
     border-radius: 4px;
@@ -601,17 +603,28 @@ header{
     font-family: var(--text_paragraph);
     font-size: 11px;
     box-shadow: 4px 3px 10px 0px;
-    margin-left: 4px;
 }
 .botons{
-    width: 29%;
+    width: 20%;
     background:var(--main_color-primary);
     border-radius: 50px;
-    padding: 12px;
+    padding: 10px;
     color: white;
     margin: 16px 0;
     font-size: 15px;
+    
 }
-.formulay_image {
-    border-radius: 20p%;
+.formulary_image{
+    /* justify-content: center;
+    align-items: center; */
+    width: 55%;
+    height: 80%;
+    display: flex;
+    flex-direction: initial;
+}
+.image_formulary{
+    border-radius: 15%;
+    border: solid 1px #333;
+    height: 100%;
+    width: 50%;
 }
