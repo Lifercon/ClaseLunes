@@ -314,6 +314,10 @@ header{
 .box__card-primary p{
     margin-top: 20px;
 }
+.box__card-primary img{
+    width: 250px;
+    height: 250px;
+}
 
 /* saber */
 .container_saber{
