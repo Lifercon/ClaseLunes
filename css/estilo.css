@@ -520,6 +520,7 @@ header {
   display: flex;
   flex-direction: row;
   margin: 2%;
+  margin-bottom: 100px;
   text-align: center;
   align-items: center;
   justify-content: space-evenly;
@@ -590,85 +591,70 @@ header {
   box-shadow: 1px 3px 41px -10px var(--main_color-primary);
 }
 
-/* contacta con nosotros */
-.contain_nosotros {
+/* || Contact. */
+
+.container-contact {
   display: flex;
   flex-direction: column;
-  padding: 40px;
-  background-color: #faf7fa;
 }
 
-.title_formulary {
+.container-contact .header {
   text-align: center;
 }
 
-.title_formulary p {
+.container-contact .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px;
+  gap: 50px;
+}
+
+.container-contact .content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-contact .header p {
   color: var(--color_text-tertiary);
 }
 
-.title_formulary h2 {
+.container-contact .header h2 {
   color: var(--color_text-secundary);
 }
 
-.contain_formulary {
-  margin: 50px;
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  height: 300px;
-}
+.container-contact .content form input {
+  font-family: var(--text_paragraph);
+  font-size: 11px;
 
-.formulary {
-  flex-direction: column;
-  display: flex;
-}
-
-.controls {
-  width: 80%;
   background: #fff9f9;
+
+  margin-bottom: 18px;
   padding: 8px;
+
   border-radius: 4px;
-  margin-bottom: 18px;
   border: 1px solid #82427f;
-  font-family: var(--text_paragraph);
-  font-size: 11px;
+
   box-shadow: 4px 3px 10px 0px;
 }
 
-.control {
-  width: 80%;
-  background: #fff9f9;
-  padding: 25px;
-  border-radius: 4px;
-  margin-bottom: 18px;
-  border: 1px solid #82427f;
-  font-family: var(--text_paragraph);
-  font-size: 11px;
-  box-shadow: 4px 3px 10px 0px;
-}
-
-.botons {
-  width: 20%;
-  background: var(--main_color-primary);
-  border-radius: 50px;
+.container-contact .content form input[type="submit"] {
+  width: fit-content;
+  margin: 16px auto;
   padding: 10px;
-  color: white;
-  margin: 16px 0;
+
   font-size: 15px;
+
+  color: white;
+  background: var(--main_color-primary);
+
+  border-radius: 50px;
 }
 
-.formulary_image {
-  /* justify-content: center;
-    align-items: center; */
-  width: 50%;
-  height: 80%;
-  display: flex;
-}
+.container-contact .content img {
+  max-height: 280px;
 
-.image_formulary {
   border-radius: 15%;
-  border: solid 1px #333;
-  width: 50%;
+  border: 1px solid #333;
 }
