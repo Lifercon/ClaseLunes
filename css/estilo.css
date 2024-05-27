@@ -596,6 +596,7 @@ header {
 .container-contact {
   display: flex;
   flex-direction: column;
+  background-color:#faf7fa;
 }
 
 .container-contact .header {
